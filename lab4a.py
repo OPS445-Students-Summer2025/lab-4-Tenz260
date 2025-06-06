@@ -6,11 +6,11 @@ def join_sets(s1, s2):
 
 def match_sets(s1, s2): 
     # match_sets will return a set that contains all values found in both s1 and s2
-   return s1 & s2
+    return s1 & s2
 
 def diff_sets(s1, s2):
     # diff_sets will return a set that contains all different values which are not shared between the sets
-   return s1 ^ s2
+    return s1 ^ s2
 
 if __name__ == '__main__':
     set1 = set(range(1,10))
